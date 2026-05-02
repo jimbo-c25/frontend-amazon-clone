@@ -157,3 +157,85 @@ nav {
     max-width: 24%;
     min-width: 12.5rem;
 }
+
+.products-slider {
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.products-slider .products {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;       
+}
+
+.products-slider .products img {
+    max-width: 200px;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.products-slider .products::-webkit-scrollbar {
+    display: none;
+}
+
+.products-slider-with-price {
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.products-slider-with-price .products {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.products-slider-with-price .products::-webkit-scrollbar {
+    display: none;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    background: #fbfbfb;
+}
+
+.product-card img {
+    width: 110px;
+    margin: 0 50px;
+}
+
+.product-offer p {
+    background: #be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin: 8px;
+    font-size: .75rem;
+}
+
+.product-offer span {
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.product-price {
+    color: gray;
+    font-size: 1rem;
+}
+
+.product-card {
+    color: #525252;
+    font-size: 1rem;
+    font-weight: 400;
+}
