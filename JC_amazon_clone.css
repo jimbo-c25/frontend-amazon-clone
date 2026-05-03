@@ -239,3 +239,16 @@ nav {
     font-size: 1rem;
     font-weight: 400;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 1.25rem 1.875rem;
+}
+
+footer a {
+    color: #9694ff;
+}
